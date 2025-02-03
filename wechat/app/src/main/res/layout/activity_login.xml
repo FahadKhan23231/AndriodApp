@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#90EE90"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+     <TextView
+         android:textColor="@color/black"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Login"
+         android:textSize="35sp"
+         android:gravity="center"
+         android:layout_marginTop="50sp">
+     </TextView>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="160dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="user Account Information">
+        </TextView>
+        <EditText
+            android:id="@+id/uni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:gravity="center_horizontal"
+            android:hint="Username"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColorHint="@color/black"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_marginTop="380dp"
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:hint="Password"
+            android:inputType="numberPassword"
+            android:textColorHint="@color/black"
+            android:textSize="25sp"
+             />
+
+        <Button
+            android:id="@+id/logbut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="480dp"
+            android:backgroundTint="@color/black"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

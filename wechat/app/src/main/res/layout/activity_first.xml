@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:background="#90EE90"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250sp"
+        android:gravity="center"
+        android:shadowColor="@color/white"
+        android:shadowDx="2"
+        android:shadowDy="4"
+        android:text="Welcome  to wechat"
+        android:textColor="@color/black"
+        android:textSize="30sp">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mainimage"
+        android:foregroundGravity="center"
+        android:layout_marginTop="360sp"/>
+
+</RelativeLayout>
+
+
+
